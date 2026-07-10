@@ -12,6 +12,24 @@ AI already has a **brain** — you rent it for ~$20/month, same one as everyone 
 
 The brain is rented. The body is yours. The body is the edge.
 
+## Fastest start — let the kit install itself
+Don't read all of this. Give it to your AI and let IT do the setup:
+
+- **Claude Code (CLI):** `git clone https://github.com/AjaySaini15/second-brain-starter && cd second-brain-starter && claude` — then paste the prompt below.
+- **Claude Cowork / Desktop:** download this repo (green button → Download ZIP), add the folder to Cowork, paste the prompt below.
+- **Chat only (ChatGPT/Claude/Gemini):** paste this README plus `templates/interview-and-generate.md` and `templates/CLAUDE-starter.md` into a new conversation, then the prompt below.
+
+> Read this starter kit end to end. Then set me up: run the Day-1 interview from templates/interview-and-generate.md conversationally — I'll answer by voice — and first have me run the memory-export prompt in my old AI tool so you can fold that in. Generate my CONTEXT.md and MEMORY.md, adopt CLAUDE-starter.md as your operating rules, install the six skills, and place every file where it belongs for THIS tool (the "Where files live" table below). Then tell me exactly what you set up, and what my first week looks like.
+
+Twenty-five minutes, mostly you talking. That's the install.
+
+## Where files live, by tool
+| | Context + operating rules | Skills | Who maintains the files |
+|---|---|---|---|
+| **Chat tools** (ChatGPT / Claude / Gemini) | Project or custom instructions: paste CONTEXT.md + CLAUDE-starter.md text | Paste the skill file into the chat when you need it (or make one Project/Gem per heavy skill) | It proposes lines; you re-paste weekly (2 min) |
+| **Claude Cowork / Desktop** | `my-brain/CLAUDE.md` (= CLAUDE-starter.md renamed) + CONTEXT.md + MEMORY.md in the folder you grant it | `my-brain/skills/*.md` | The AI edits files directly — zero manual upkeep |
+| **Claude Code (CLI)** | `CLAUDE.md` at the root of the folder where you launch `claude` (or `~/.claude/CLAUDE.md` to apply everywhere) | `.claude/skills/<name>/SKILL.md` in the project — or `~/.claude/skills/` globally. With a name+description header they auto-trigger as /commands. Ask the AI to do this migration itself. | The AI edits files directly |
+
 ## What's inside
 
 ```
@@ -27,9 +45,12 @@ templates/
   MEMORY.md                 ← the memory index it keeps for you
   export-your-memories.md   ← rescue what ChatGPT/Gemini/Claude already know about you
 skills/
-  meeting-notes-to-actions.md
+  meeting-notes-to-actions.md   ← the three starters: run these on real work
   weekly-review.md
   daily-brief.md
+  log.md                        ← the scaffolding: session log & handover (the memory loop)
+  skill-improve.md              ← corrections become permanent skill upgrades (the skills loop)
+  skill-create.md               ← new skills get born from doing, never from a blank page
 FAQ.md                      ← cost, privacy, which model, portability, "I can't code"
 ```
 

@@ -11,7 +11,7 @@ Build them in this order — each one is a week or two of evenings, and the AI w
 
 **3. The bridge.** Connect one real surface you use daily — calendar, mail, sheets. When access is blocked, don't stop: describe the block to the AI and let it write a thin script around it (an API bridge is an afternoon, not a project). Own thin scripts beat heavy connectors: less token overhead, loops and batching, and you control what goes back and forth.
 
-**4. The self-improving loop.** Create two meta-skills: a `log` skill (end of each working session: append what was done, what was corrected, what's open) and a `skill-improve` skill (fold a correction back into the skill file that caused it, permanently). This is the difference between 20 versions of a skill and 20 repetitions of a mistake.
+**4. The self-improving loop.** Already in the kit — `skills/log.md`, `skills/skill-improve.md`, `skills/skill-create.md` are the exact scaffolding I run (generalized). Install them at the Walk stage; at this stage, wire log into your schedule (end-of-day) and let skill-improve keep every skill's change log honest. This trio is the difference between 20 versions of a skill and 20 repetitions of a mistake.
 
 **5. The health check.** Once you have 3+ scheduled jobs, add a script that answers one question: *did everything run when it should have?* Silent failure is the default failure mode of automation — a dead job looks exactly like a quiet day. A read-only checker that lists each job's last successful run turns "silent" into "caught."
 

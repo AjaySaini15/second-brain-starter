@@ -10,7 +10,7 @@ my-brain/
   CLAUDE.md      ← templates/CLAUDE-starter.md, renamed — the operating rules
   CONTEXT.md     ← from Day 1
   MEMORY.md      ← from Day 1
-  skills/        ← the kit's three + everything it writes for you
+  skills/        ← all six kit skills (3 starters + the log/skill-improve/skill-create scaffolding) + everything it writes for you
   notes/         ← drop raw material here: meeting notes, dumps, anything
 ```
 
