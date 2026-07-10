@@ -1,24 +1,21 @@
 # Your first 30 minutes
 
-Do this in one sitting. Zero code. Works with ChatGPT, Claude, or Gemini — whichever you already pay for.
+One rule for this whole kit: **you never type a file — you talk, the AI writes.** Works with ChatGPT, Claude, or Gemini, whichever you already pay for.
 
-## Minute 0–15 — write your context doc
-Copy `templates/CONTEXT.md` and fill it in, honestly. Who you are, what you run, who the key people are, what you're trying to move this quarter, how you like answers delivered. Don't polish — bullet points beat prose. This document is the single highest-leverage artifact in this entire kit.
+## Minute 0–5 — rescue what your AI already knows
+Your current chat tool has been quietly building memory about you. Run **Prompt A** (or business-only **Prompt B**) from `templates/export-your-memories.md` and keep the output in the conversation.
 
-## Minute 15–20 — install it
-- **Claude:** create a Project → paste CONTEXT.md into the project instructions.
-- **ChatGPT:** Settings → Personalization → Custom Instructions (or a dedicated GPT).
-- **Gemini:** create a Gem with it.
+## Minute 5–20 — dictate the interview
+Open `templates/interview-and-generate.md`. Answer its 10 questions **out loud** — voice mode, phone-keyboard mic, or a dictation app; ramble, detail is the point. (Typing works; you'll just say less.)
 
-From now on, every conversation starts already knowing you. That's the first "aha."
+## Minute 20–25 — let it write your files
+Paste the generator prompt from the same file. It turns your dictation + memory export into `CONTEXT.md` and `MEMORY.md` — your words, organized, gaps flagged as TODOs.
 
-## Minute 20–30 — hand it one real task
-Pick your most annoying recurring task — meeting notes, a status email, a weekly report. Open `skills/meeting-notes-to-actions.md`, paste it in along with your raw input, and run it.
+## Minute 25–30 — install the operating system
+Install two things into your project / custom instructions:
+1. The generated **CONTEXT.md** (what it knows about you), and
+2. **`templates/CLAUDE-starter.md`** (how it MAINTAINS what it knows — the rules that make it propose its own memory updates every time you correct it).
 
-Then do the one thing that separates people whose systems compound from people who churn:
-
-> When the output is wrong — wrong tone, wrong priority, missed something — **fix the context, not just the answer.** Add one line to CONTEXT.md: "X reports to Y", "never suggest meetings before 10am", "be direct, don't sugar-coat." One line per mistake.
-
-That correction habit IS the system. Everything else in this kit is scaffolding around it.
+That second file is the difference between a note and a system. From now on, every conversation starts already knowing you — and gets a little smarter when you correct it, without you maintaining anything by hand.
 
 **Tomorrow:** `02-crawl-week-one.md`.

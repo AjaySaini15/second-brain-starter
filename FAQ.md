@@ -10,7 +10,7 @@ Check your plan's data settings — consumer plans generally offer training opt-
 Wrong question — they leapfrog each other every quarter. Pick one, build your files, and stay portable (that's why everything in this kit is plain markdown — see `templates/export-your-memories.md`). My own bias: Claude for structured work and file-based workflows, which is what a second brain mostly is. But the system outlives any model choice.
 
 **I can't code. Is this for me?**
-Levels 1–3 (first month) involve zero code — writing honest markdown about yourself and your work is the whole game. Level 4 (automation) benefits from comfort with a terminal, but the AI itself writes most of what's needed — my first bridges were AI-written. Decide when you get there.
+Levels 1–3 (first month) involve zero code — and zero typing of files: you dictate, the AI writes and maintains its own context (that's the kit's design). Level 4 (automation) benefits from comfort with a terminal, but the AI itself writes most of what's needed — my first bridges were AI-written. Decide when you get there.
 
 **How long until it "compounds"?**
 Weeks 1–2: costs more time than it saves (the workout phase — this is where most people quit). Month 1: first real saves — meeting notes, reviews, briefs. Month 2–3: it starts knowing things you forgot you told it; answers get eerily specific. The compounding is real but back-loaded — the clock only starts when you begin.

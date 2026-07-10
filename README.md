@@ -16,13 +16,16 @@ The brain is rented. The body is yours. The body is the edge.
 
 ```
 START-HERE/
-  01-first-30-minutes.md    ← do this today. 30 minutes, zero code.
-  02-crawl-week-one.md      ← week one: any chat tool (ChatGPT / Claude / Gemini)
-  03-walk-first-month.md    ← month one: a folder of files + your first real skills
-  04-run-first-quarter.md   ← quarter one: automation, gates, the deep end
+  01-first-30-minutes.md    ← do this today. You talk for 15 min; it writes your files.
+  02-crawl-week-one.md      ← week one: any chat tool — it maintains its own memory
+  03-walk-first-month.md    ← month one: give it a folder (Cowork/Desktop) — it gets hands
+  04-run-first-quarter.md   ← quarter one: schedules, staging gates, self-improving loops
 templates/
-  CONTEXT.md                ← the "about me & my world" doc — the highest-leverage 30 minutes
-  MEMORY.md                 ← a simple memory index that grows with you
+  interview-and-generate.md ← the 10 questions you DICTATE + the prompt that writes your files
+  CLAUDE-starter.md         ← the operating file — the rules that make memory maintain ITSELF
+  CONTEXT.md                ← what the generator produces (spec — you never type this by hand)
+  MEMORY.md                 ← the memory index it keeps for you
+  export-your-memories.md   ← rescue what ChatGPT/Gemini/Claude already know about you
 skills/
   meeting-notes-to-actions.md
   weekly-review.md
@@ -30,11 +33,12 @@ skills/
 FAQ.md                      ← cost, privacy, which model, portability, "I can't code"
 ```
 
-## The three rules that matter more than any tool
+## The four rules that matter more than any tool
 
-1. **Context beats prompts.** A clever prompt is a one-off; a context file compounds. Every time the AI gets something wrong about you, don't just correct it — add one line to your CONTEXT.md so it never gets it wrong again.
-2. **Own your memory.** Keep it in plain files on your machine — not locked inside any product's memory feature. Files move with you when tools change. Tools will change.
-3. **It's a workout, not a vending machine.** Weeks 1–2 feel like more effort, not less. Results show around month two — if you keep feeding it. Most people quit before the compounding starts. Don't.
+1. **You talk; it types.** You never hand-write a context file, a memory entry, or a skill — you dictate, it drafts, you approve. If the kit ever feels like homework, you're doing it the wrong way.
+2. **Context beats prompts.** A clever prompt is a one-off; maintained context compounds. Every correction becomes a file update — proposed by the AI itself (that's what `CLAUDE-starter.md` is for).
+3. **Own your memory.** Plain files on your machine — not locked inside any product's memory feature. Files move with you when tools change. Tools will change.
+4. **It's a workout, not a vending machine.** Weeks 1–2 feel like more effort, not less. Results show around month two — if you keep feeding it. Most people quit before the compounding starts. Don't.
 
 ## Where this comes from
 

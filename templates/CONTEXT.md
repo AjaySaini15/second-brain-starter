@@ -1,8 +1,9 @@
 # CONTEXT — who I am & my world
-<!-- Copy this file, fill it in honestly, and install it as your AI's standing
-context (Claude Project instructions / ChatGPT custom instructions / Gemini Gem).
-Bullets beat prose. Update it every time the AI gets something wrong — one line
-per mistake. This file compounding IS your second brain starting. -->
+<!-- You don't fill this in by hand — the generator prompt in
+interview-and-generate.md produces it from your dictation and memory export.
+This file is the SPEC it fills. Install the result as your AI's standing
+context (project instructions / custom instructions / Gem), alongside
+CLAUDE-starter.md which keeps it maintained. -->
 
 ## Who I am
 - Name, role, company:

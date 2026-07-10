@@ -1,28 +1,31 @@
 # Walk — the first month
 
-**Goal:** move from "a chat that knows me" to "a system with eyes and memory." Still no code — but now there are files.
+**Goal:** the AI stops asking you to paste things. Give it a folder and hands: it reads its own context, writes its own files, maintains its own memory. Still no code.
 
-## Set up your brain folder
-Make one folder on your machine:
+## Set up the brain folder — once, and it does the work
+Use a desktop AI that can work in a folder — **Claude Cowork / Claude Desktop** (or equivalent). Make one folder and grant access:
 
 ```
 my-brain/
-  CONTEXT.md        ← moves here from the chat project; this is now the master copy
-  MEMORY.md         ← from templates/ — an index of what the system knows
-  skills/           ← the three from this kit, plus every one you write
-  notes/            ← meeting notes, decisions, anything worth remembering
+  CLAUDE.md      ← templates/CLAUDE-starter.md, renamed — the operating rules
+  CONTEXT.md     ← from Day 1
+  MEMORY.md      ← from Day 1
+  skills/        ← the kit's three + everything it writes for you
+  notes/         ← drop raw material here: meeting notes, dumps, anything
 ```
 
-Plain markdown files. Readable in any editor, portable to any AI tool, yours forever. This is the "own your memory" rule made physical — your context never lives inside someone's product.
+First instruction to it: *"Read CLAUDE.md — those are your operating rules. Confirm the file map and tell me what's missing."*
 
-## Give the AI the folder
-Use a desktop AI app that can read local files (Claude Desktop / Cowork, or equivalent). Point it at `my-brain/`. Now it reads CONTEXT.md itself, pulls the right skill itself, and writes outputs back as files. You've upgraded from pasting (you as the eyes) to access (its own eyes).
+## What changes at this level
+- **The re-paste chore disappears.** It edits CONTEXT.md and MEMORY.md directly (per the CLAUDE.md rules: propose, you approve, it writes). Corrections compound with zero manual upkeep.
+- **It builds its own skills.** Do your monthly report with it once, then: "write the skill." Next month: "run the report skill." When output disappoints, it fixes the skill file, not just the answer — that's the skills loop compounding alongside the memory loop.
+- **The notes folder becomes its diet.** After anything significant — meeting, decision, idea — dictate a raw note into notes/ (ugly is fine). You feed; it organizes.
 
 ## The two habits that make month one compound
-1. **Feed the notes folder.** After anything significant — meeting, decision, idea — drop a raw note in `notes/`. Ugly is fine. Volume matters more than form; this becomes the memory your future self queries.
-2. **Write your third skill.** Take a workflow only you do — your monthly report, your team review prep — and write it as a skill file (copy the format from the kit's skills). Run it, fix it, run it again. My meeting-processing skill is on version ~20. Version 1 was bad. That's the point.
+1. Feed notes/ daily — volume beats form.
+2. End sessions with "propose memory updates" until it starts doing it unprompted.
 
 ## End-of-month test
-Ask it: *"Based on my notes this month, what am I not paying attention to?"* If the answer makes you uncomfortable, the system is working.
+Ask: *"Based on my notes this month, what am I not paying attention to?"* If the answer makes you uncomfortable, the system is working.
 
-**Then:** `04-run-first-quarter.md` — automation, and where the ceiling disappears.
+**Then:** `04-run-first-quarter.md` — schedules, gates, and the ceiling coming off.
