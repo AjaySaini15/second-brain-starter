@@ -3,7 +3,7 @@
 **Goal:** make the AI useful daily with just a chat tool — and let it maintain its own memory. 15 minutes a day, no new software, no typing files.
 
 ## The daily loop
-1. Bring it one real piece of work every day — notes to structure, an email to draft, a decision to think through. Dictate the messy version; real work only.
+1. Bring it one real piece of work every day — and start with your meetings: paste a transcript (Meet/Teams/Zoom all produce them natively) into the meeting-notes skill. Beyond meetings: notes to structure, an email to draft, a decision to think through. Dictate the messy version; real work only.
 2. When it gets something wrong, correct it **and accept the file-update it proposes.** (The CLAUDE-starter rules make it offer the exact line — "Add to CONTEXT: X reports to Y?" — you just say yes.) In a chat tool, paste the proposed lines back into your project instructions at week's end; that 2-minute re-paste is your only manual chore at this level.
 3. End each work session with: "Anything from today worth remembering? Propose MEMORY lines." Approve what's right.
 

@@ -54,6 +54,19 @@ skills/
 FAQ.md                      ← cost, privacy, which model, portability, "I can't code"
 ```
 
+## Feed it — the organ most people forget
+A second brain with no input stream is a filing cabinet. Get signal flowing in from day one:
+
+- **Meetings — the richest input there is.** Use whatever transcription you already have: Google Meet / Teams / Zoom native transcripts, your phone's recorder + any transcriber app for physical meetings, or a dedicated tool. Drop every transcript into `notes/` (or paste it in, at chat level) and run the meeting-notes skill on it. My entire system started as exactly this and nothing more.
+- **Your voice, daily.** One dictated end-of-day note — what happened, what's worrying you, what's next. Ugly is fine; volume beats form.
+- **Documents you already produce** — reports, plans, reviews. Drop copies in `notes/` as you make them.
+- Later (Run stage): calendar, mail, and sheets flow in through bridges — no pasting at all.
+
+The rule: if it carries signal and you touched it today, the brain should see it.
+
+## What this kit is — and isn't
+This is my system at week-zero scale: the same anatomy (brain, eyes, memory, hands), the same two compounding loops (memory + skills), the same operating rules, the same meta-skills — minus 18 months of accumulated context and a fleet of automations. The architecture is fully shareable, and it's all here. The accumulated context is not shareable — nobody's is. You build that part by feeding yours, starting today. Twelve weeks of this kit ≈ where I was at month three; the rest is the same loops, run longer.
+
 ## The four rules that matter more than any tool
 
 1. **You talk; it types.** You never hand-write a context file, a memory entry, or a skill — you dictate, it drafts, you approve. If the kit ever feels like homework, you're doing it the wrong way.

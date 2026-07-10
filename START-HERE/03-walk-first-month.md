@@ -19,7 +19,7 @@ First instruction to it: *"Read CLAUDE.md — those are your operating rules. Co
 ## What changes at this level
 - **The re-paste chore disappears.** It edits CONTEXT.md and MEMORY.md directly (per the CLAUDE.md rules: propose, you approve, it writes). Corrections compound with zero manual upkeep.
 - **It builds its own skills.** Do your monthly report with it once, then: "write the skill." Next month: "run the report skill." When output disappoints, it fixes the skill file, not just the answer — that's the skills loop compounding alongside the memory loop.
-- **The notes folder becomes its diet.** After anything significant — meeting, decision, idea — dictate a raw note into notes/ (ugly is fine). You feed; it organizes.
+- **The notes folder becomes its diet.** Route your meeting transcripts into notes/ (export from Meet/Teams/your transcriber — make it a habit, not a decision), and after anything significant, dictate a raw note (ugly is fine). You feed; it organizes.
 
 ## The two habits that make month one compound
 1. Feed notes/ daily — volume beats form.
