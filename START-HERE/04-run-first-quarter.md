@@ -9,7 +9,7 @@ Build them in this order — each one is a week or two of evenings, and the AI w
 
 **2. The staging gate (maker-checker).** Never let an automation act directly on the world. It writes its output to a `staging/` folder as a reviewable file; you tick what you approve; a second step executes only the ticks. One folder = one inbox of everything pending your yes. This single pattern is what keeps trust in your own system as it scales.
 
-**3. The bridge.** Connect one real surface you use daily — calendar, mail, sheets. When access is blocked, don't stop: describe the block to the AI and let it write a thin script around it (an API bridge is an afternoon, not a project). Own thin scripts beat heavy connectors: less token overhead, loops and batching, and you control what goes back and forth.
+**3. The bridge.** Run `skills/map-your-surfaces.md` first (your ranked eyes-roadmap), then `skills/build-a-bridge.md` per surface — your AI picks the least-privilege path, writes the thin script, tests read-only, and adds the routing step that empties the inbox into your memory system. When access is blocked, don't stop: describe the block and let it write around it (an API bridge is an afternoon, not a project). Own thin scripts beat heavy connectors: less token overhead, loops and batching, you control what flows.
 
 **4. The self-improving loop.** Already in the kit — `skills/log.md`, `skills/skill-improve.md`, `skills/skill-create.md` are the exact scaffolding I run (generalized). Install them at the Walk stage; at this stage, wire log into your schedule (end-of-day) and let skill-improve keep every skill's change log honest. This trio is the difference between 20 versions of a skill and 20 repetitions of a mistake.
 

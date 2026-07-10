@@ -51,6 +51,8 @@ skills/
   log.md                        ← the scaffolding: session log & handover (the memory loop)
   skill-improve.md              ← corrections become permanent skill upgrades (the skills loop)
   skill-create.md               ← new skills get born from doing, never from a blank page
+  map-your-surfaces.md          ← the eyes, part 1: inventory where your signal lives → a ranked roadmap
+  build-a-bridge.md             ← the eyes, part 2: your AI writes the thin script for YOUR stack
 FAQ.md                      ← cost, privacy, which model, portability, "I can't code"
 ```
 
@@ -60,7 +62,7 @@ A second brain with no input stream is a filing cabinet. Get signal flowing in f
 - **Meetings — the richest input there is.** Use whatever transcription you already have: Google Meet / Teams / Zoom native transcripts, your phone's recorder + any transcriber app for physical meetings, or a dedicated tool. Drop every transcript into `notes/` (or paste it in, at chat level) and run the meeting-notes skill on it. My entire system started as exactly this and nothing more.
 - **Your voice, daily.** One dictated end-of-day note — what happened, what's worrying you, what's next. Ugly is fine; volume beats form.
 - **Documents you already produce** — reports, plans, reviews. Drop copies in `notes/` as you make them.
-- Later (Run stage): calendar, mail, and sheets flow in through bridges — no pasting at all.
+- Later: run `skills/map-your-surfaces.md` for your personal ranked eyes-roadmap, then `skills/build-a-bridge.md` to have your AI connect one surface at a time — calendar, mail, sheets flowing in with no pasting at all.
 
 The rule: if it carries signal and you touched it today, the brain should see it.
 
