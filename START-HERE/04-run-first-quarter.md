@@ -5,7 +5,7 @@
 ## The five patterns that make it real
 Build them in this order — each one is a week or two of evenings, and the AI writes most of the code itself.
 
-**1. The scheduled skill.** Take the skill you run most (daily brief, weekly review) and put it on a timer so the output exists before you ask. macOS: `launchd`; Linux: `cron`; anywhere: a calendar-triggered script. The test of this level: something useful was waiting for you when you woke up.
+**1. The scheduled skill.** Run `skills/schedule-a-skill.md` — your AI puts the skill you use most (daily brief, weekly review) on a timer, staging-gated, with run-logging and a dead-man check built in. The test of this level: something useful was waiting for you when you woke up.
 
 **2. The staging gate (maker-checker).** Never let an automation act directly on the world. It writes its output to a `staging/` folder as a reviewable file; you tick what you approve; a second step executes only the ticks. One folder = one inbox of everything pending your yes. This single pattern is what keeps trust in your own system as it scales.
 

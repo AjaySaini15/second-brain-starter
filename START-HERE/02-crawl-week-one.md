@@ -5,7 +5,7 @@
 ## The daily loop
 1. Bring it one real piece of work every day — and start with your meetings: paste a transcript (Meet/Teams/Zoom all produce them natively) into the meeting-notes skill. Beyond meetings: notes to structure, an email to draft, a decision to think through. Dictate the messy version; real work only.
 2. When it gets something wrong, correct it **and accept the file-update it proposes.** (The CLAUDE-starter rules make it offer the exact line — "Add to CONTEXT: X reports to Y?" — you just say yes.) In a chat tool, paste the proposed lines back into your project instructions at week's end; that 2-minute re-paste is your only manual chore at this level.
-3. End each work session with: "Anything from today worth remembering? Propose MEMORY lines." Approve what's right.
+3. At session end it should OFFER memory lines and a log itself (the CLAUDE-starter rituals make it). Your job is only to approve. If it ever forgets to offer, remind it once — the rules tell it to treat that as its own failure, and it self-corrects.
 
 ## Add your second skill — by asking, not writing
 When one loop feels natural, run your week's notes through `skills/weekly-review.md` on Friday. Then try the move that matters: do any recurring task with it once, and say **"write this up as a skill file I can reuse."** It drafts the skill; you correct it by talking. You'll never hand-write a skill in your life.

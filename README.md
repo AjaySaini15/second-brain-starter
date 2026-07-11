@@ -21,7 +21,7 @@ Don't read all of this. Give it to your AI and let IT do the setup:
 
 > Read this starter kit end to end. Then set me up: run the Day-1 interview from templates/interview-and-generate.md conversationally — I'll answer by voice — and first have me run the memory-export prompt in my old AI tool so you can fold that in. Generate my CONTEXT.md and MEMORY.md, adopt CLAUDE-starter.md as your operating rules, install the six skills, and place every file where it belongs for THIS tool (the "Where files live" table below). Then tell me exactly what you set up, and what my first week looks like.
 
-Twenty-five minutes, mostly you talking. That's the install.
+Twenty-five minutes, mostly you talking. That's the install. (One honest note: in Cowork/CLI it literally writes and places every file itself; in a chat-only tool it writes everything and hands you two blocks to paste — it will tell you exactly where.)
 
 ## Where files live, by tool
 | | Context + operating rules | Skills | Who maintains the files |
@@ -53,6 +53,7 @@ skills/
   skill-create.md               ← new skills get born from doing, never from a blank page
   map-your-surfaces.md          ← the eyes, part 1: inventory where your signal lives → a ranked roadmap
   build-a-bridge.md             ← the eyes, part 2: your AI writes the thin script for YOUR stack
+  schedule-a-skill.md           ← the automation layer: one skill on a timer, staging-gated, with a dead-man check
 FAQ.md                      ← cost, privacy, which model, portability, "I can't code"
 ```
 
