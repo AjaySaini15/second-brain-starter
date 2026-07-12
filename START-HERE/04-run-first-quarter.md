@@ -23,4 +23,4 @@ My full setup — the architecture, the staging inboxes, the health board, the m
 - **Thread hygiene.** Long chat threads compound their own context cost. End a work thread with a handover note (the log skill), clear, start fresh. Separate threads per topic.
 
 ## Staying current (my actual inputs)
-Nate B Jones · Product Hunt newsletter · podcasts on commutes. Build in public and compare notes — the architecture is shareable; the accumulated context is yours alone.
+Nate B Jones · Ev Chapman's Substack (my session-logging loop started from her idea) · Product Hunt newsletter · podcasts on commutes. Build in public and compare notes — the architecture is shareable; the accumulated context is yours alone.
