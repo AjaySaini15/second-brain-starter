@@ -1,5 +1,10 @@
 # Second Brain Starter
 
+**See the full system this kit comes from:** an interactive map of the second brain I run a 300-person business on. 49 parts, 66 connections, six layers.
+
+- [Explore the map](https://www.ajaysaini.io/second-brain/explore/)
+- [Read the write-up](https://www.ajaysaini.io/second-brain/)
+
 A minimal, tool-agnostic starting point for building your own AI second brain — the kind I walked through in my session "Make AI Work For You" (July 2026). No exotic tools required, nothing to install for the first month, and everything you create stays in plain files **you own**.
 
 ## The mental model
